@@ -1,0 +1,264 @@
+
+.photo{
+    background-image: url(https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1200&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMxNjA3NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+    height: 100vh;
+    /* background-position: center; */
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.first-div{
+    padding: 244px 850px 144px 40px;
+    margin-left: 40px;
+    align-items: center;
+
+
+}
+.first-div h1{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.first-div p{
+    color: #ffffff80;
+    font-size: 19px;
+    margin-bottom: 40px;
+
+}
+
+.first-div a{
+    color: #fff;
+    font-size: 16px;
+    background-color: #00ba94;
+    padding: 18px 24px;
+    border-radius: 7px;
+    font-weight: bold;
+
+
+}
+
+.photo::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 29, 16, 0.5);
+    z-index: -1;
+    
+
+
+}
+
+
+.container2{
+    margin-top: 40px;
+    padding: 0 80px;
+
+}
+
+.text-box{
+    margin-bottom: 60px;
+    padding-right: 615px;
+}
+
+.text h2{
+    color: #69707A;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.text hr{
+    color: #69707A;
+    margin-bottom: 60px;
+
+}
+
+.text-box h4{
+    color: #363D47;
+    font-size: 20px;
+
+
+}
+
+.text-box > p{
+    color: #69707A;
+    font-size: 18px;
+    margin-bottom: 17px;
+
+}
+
+.text-box p{
+    color: #69707A;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+
+.container3 {
+    margin-top: 340px;
+    padding: 0 80px;
+}
+
+.container3 h2 {
+    color: #69707A;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+
+}
+
+.container3 hr{ 
+    color: #69707A;
+    margin-bottom: 40px;
+
+
+}
+.text-box2{
+    margin-bottom: 60px;
+
+}
+
+.text-box2 h4{
+    color: #363D47;
+    font-size: 20px;
+
+}
+
+.text-box2 p{
+    font-size: 17px;
+    color: #69707A;
+    margin-bottom: 16px;
+
+}
+
+
+.container4 {
+    margin-top: 340px;
+    padding: 0 80px;
+    margin-bottom: 240px;
+}
+
+.container4 h2{
+    color: #69707A;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.container4 hr{
+    color: #69707A;
+    margin-bottom: 40px;
+
+}
+
+.container4 h3{
+    color: #363D47;
+    font-size: 21px;
+    margin-bottom: 10px;
+
+}
+
+.container4 p{
+    color: #69707A;
+    font-size: 18px;
+    margin-bottom: 7px;
+
+}
+
+.container4 a{
+    color: #69707A;
+    font-size: 16px;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacta{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #00ba94;
+    padding: 18px 24px;
+    border-radius: 7px;
+
+}
+
+
+@media (max-width:576px) {
+    .photo{
+        background-image: url(https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1200&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMxNjA3NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+        height: 100vh;
+        width: 100%;
+        /* background-position: center; */
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+        
+    }
+    .first-div{
+        padding: 244px 50px 44px 20px;
+        margin-left: 40px;
+        align-items: center;
+    
+    
+    }
+
+
+    .text-box{
+        margin-bottom: 60px;
+        padding-right: 15px;
+    }
+    
+   
+    
+    .container3 {
+        margin-top: 140px;
+        padding: 0 80px;
+    }
+    
+  
+    .text-box2{
+        margin-bottom: 30px;
+    
+    }
+    
+   
+    .container4 {
+        margin-top: 140px;
+        padding: 0 80px;
+        margin-bottom: 240px;
+    }
+    
+    
+   
+    
+    .container4a{
+        color: #69707A;
+        font-size: 16px;
+        margin-bottom: 5px;
+    
+    }
+    .contact{
+        display: block;
+        gap: 15px;
+    }
+
+    #contacta{
+        color: #ffffff;
+        font-size: 16px;
+        background-color: #00ba94;
+        padding: 18px 24px;
+        border-radius: 7px;
+
+    }
+    
+    
+}
